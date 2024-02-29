@@ -1,0 +1,60 @@
+.moghadame-title {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.Amirreza-title {
+font-family: Roboto;
+font-weight: bold;
+font-size: 18px;
+width: 300px;
+line-height: 24px;
+margin-bottom: 6px;
+}
+
+.Amirreza-stats {
+font-family: Roboto;
+font-size: 14px;
+color: rgb(96, 96, 96);
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.Amirreza-author {
+    font-family: Roboto;
+    font-size: 14px;
+    color: rgb(83, 82, 82);
+    margin-top: 20px;
+}
+
+.Amirreza-description {
+ font-family: Roboto;
+ font-size: 14px;
+ color: gray;
+ width: 250px;
+ line-height: 22px;
+ margin-bottom: 300px;
+}
+
+.apple-text {
+font-family: Roboto;
+margin-bottom: 50px;
+font-size: 14px;
+background-color: rgb(228, 66, 65);
+color: white;
+text-align: center;
+padding-top: 18px;
+padding-bottom: 18px;
+}
+
+.youtube-link {
+cursor: pointer;
+margin-left: 7px;
+
+}
+.youtube-link:hover {
+text-decoration: underline;
+}

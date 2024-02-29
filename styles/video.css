@@ -1,0 +1,121 @@
+
+
+
+.Profile-channel {
+  border-radius: 200px;
+  display: inline-block;
+  width: 160px;
+  margin-bottom: 12px;
+}
+
+
+
+
+.thumbnail {
+   width: 100%;
+   border-radius: 7px;
+}
+
+.video-title {
+  width: 300px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+
+.video-author {
+  display: block;
+  font-size: 12px;
+  color: rgb(79, 76, 76);
+  margin-bottom: 6px;
+}
+
+.video-stats {
+  display: block;
+  font-size: 12px;
+  color: gray;
+}
+
+
+
+.channel-picture2 {
+  display: inline-block;
+  width: 160px;
+  border-radius: 20px;
+}
+
+
+.profile-picture {
+  width: 40px;
+  border-radius: 50px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  
+}
+
+.Amirreza-preview {
+  display: block;
+}
+.Amirreza-info {
+  display: inline-block;
+  width: 300px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.Amirrrza-picture {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.video-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 16px;
+     row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 751px) and (min-width: 999px)
+{
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+ @media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}   
+
+.video-time {
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+}
